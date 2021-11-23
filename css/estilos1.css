@@ -1,0 +1,307 @@
+/*Cabecera*/
+header{
+    display: flex;
+    background-color: rgb(59, 122, 182);
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+/*Navegacion*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/*Elementos de la navegacion*/
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 1px;
+    text-decoration: none;
+}
+
+nav ul li{
+    float: left;
+    width: auto;
+    padding: 5px;
+}
+
+nav ul{
+    overflow: hidden;
+}
+
+/*Titul0 - Administracion*/
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/*1er imagen*/
+.logo{
+    height: 80px;
+    width: auto;
+}
+
+/*Portada - Autos varios*/
+#portadaAutos{
+    width: 100%;
+    height: auto;
+}
+
+/*Legenda - Informacion del anuncion*/
+legend{
+    color: grey;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Fomulario - caracs generales*/
+.formulario{
+    margin : 0 auto;
+    margin-top: 20px;
+    max-width: 700px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/*Recuadro formulario*/
+#form{
+    border: 1px grey solid;
+	padding: 15px;
+	margin: 10px;
+}
+
+/*Nombre controles*/
+#titulo, #transaccionText, #descripcion, #precio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Elegir Transaccion - Venta, alquiler o permuta*/
+#transaccion{
+    color:grey;
+}
+
+/*Input y select - espacios donde va la info*/
+input, select{
+    background-color: lightgrey;
+    border: solid lightgrey;
+    border-radius: 8px;
+    height: 35px;
+    width: 98%;
+    text-align: left;
+}
+
+/*Div de la clase formulario*/
+.formulario div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Iconos de puerta, kms, potencia*/
+.iconos{
+    width: 20px;
+    height: 20px;
+    justify-content: left;
+}
+
+/*Boton de guardar los elementos en lista*/
+#btnSubmit{
+    background-color: lightgreen;
+    border: solid lightgreen;
+    background-image: url('../img/save.png');
+}
+
+/*Boton de eliminar elemento de la lista*/
+#btnEliminar{
+    background-color: lightcoral;
+    border: solid lightcoral;
+    background-image: url('../img/delete.png');
+}
+
+/*Botones de eliminar y guardar*/
+#btnSubmit, #btnEliminar{
+    height: 45px;
+    width: 95px;
+    margin: 10px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 0px;
+    background-position: left;
+    background-size: 20px;
+    background-repeat:no-repeat;
+}
+
+/*Clase del boton eliminar*/
+.oculto{
+    display:none;
+}
+
+/*Filtros*/
+.containerFiltroDiv{
+    background-color: rgb(177, 177, 177);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin : 0 auto;
+    margin-top: 35px;
+    max-width: 85%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+/*Titutlo FILTROS*/
+.filtros{
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+/*Subtitulos de FILTROS*/
+#textoFiltros{
+    color: black;
+    text-transform: uppercase;
+}
+
+/*Div de transaccion en FILTROS*/
+#divTransaccion{
+    margin: 5px;
+}
+
+/*Label de transaccion en FILTROS*/
+#transaccionFil{
+    font-style: normal;
+}
+
+/*Opciones de filtrado*/
+#selectFiltros{
+    width: 135px;
+    background-color: lightgray;
+}
+
+/*Input de precio en FILTROS*/
+#promedio{
+    width: 135px;
+    margin-top: 5px;
+}
+
+/*CheckBox Filtros*/
+.containerCheckboxDiv{
+    margin : 0 auto;
+    margin-top: 15px;
+    max-width: 85%;
+    color: black;
+}
+
+/*Campos de filtrado*/
+#campos{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*Id del spinner*/
+#spinner-container{
+    align-content : center;
+}
+
+/*Footer - pie de pagina*/
+footer{
+    height: 100px;
+    flex-grow: 0;
+    display: block;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+
+/*Tabla de autos*/
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th, td{
+    padding: 2px 5px 5px 2px;
+}
+
+table{
+    width: 100px;
+    margin: 0 auto;
+}
+
+th{
+    background-color: rgb(236, 120, 108);
+}
+
+tr{
+    font-size: 20px;
+    text-align: center;
+}
+
+td{
+    background-color: whitesmoke;
+}
+
+/*Ajustes de la pagina*/
+@media screen and (max-width: 500px){
+    .navegacion{
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .logo{
+        height: 180px;
+    }
+
+    #imagenBajoPortada{
+        margin: 5px;
+        width: 450px;
+        height: 100px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    table{
+        width: auto;
+        margin: 0 auto;
+    }
+
+    footer{
+        flex-direction: row;
+        font-size: small;
+        width: auto;
+        height: auto;
+    }
+
+    .fieldsetItems{
+        display: flex;
+        flex-direction: column;
+    }
+}

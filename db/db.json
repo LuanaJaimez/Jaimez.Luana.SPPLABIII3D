@@ -1,0 +1,34 @@
+{
+  "anuncios": [
+    {
+      "id": 1637686484218,
+      "titulo": "ferrari",
+      "transaccion": "Alquiler",
+      "descripcion": "auto rojo de lujo",
+      "precio": "120000",
+      "num_puertas": "3",
+      "num_kmh": "12334",
+      "potencia": "130"
+    },
+    {
+      "id": 1637690452136,
+      "titulo": "Toyota",
+      "transaccion": "Permuta",
+      "descripcion": "Auto gris bonito",
+      "precio": "120988",
+      "num_puertas": "3",
+      "num_kmh": "1365000",
+      "potencia": "70"
+    },
+    {
+      "id": 1637709023698,
+      "titulo": "clio",
+      "transaccion": "Venta",
+      "descripcion": "Clio verde viejo pero lindo",
+      "precio": "123900",
+      "num_puertas": "2",
+      "num_kmh": "12490004",
+      "potencia": "70"
+    }
+  ]
+}

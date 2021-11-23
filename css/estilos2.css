@@ -1,0 +1,154 @@
+/*Cuerpo - Foto Fondo*/
+body{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Cabecera - Navegacion*/
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/*Elementos de la navegacion*/
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 1px;
+    text-decoration: none;
+}
+
+nav ul li{
+    float: left;
+    width: auto;
+    padding: 5px;
+}
+
+nav ul{
+    overflow: hidden;
+}
+
+/*Imagen Cabecera*/
+.logo{
+    height: 80px;
+    width: auto;
+}
+
+/*Venta y Alquiler de Vehiculos*/
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 50px;
+    bottom: 80px;
+    left: 10px;
+}
+
+/*Exclusivo de Lujo*/
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 50px;
+    bottom: 0px;
+    left: 10px;
+}
+
+/*Autos en Venta y Alquiler*/
+h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+    bottom: 0px;
+    left: 10px;
+}
+
+
+/*Articulos Vehiculos*/
+#divArticulos{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: left;
+}
+
+.articulo{
+    border: 1px solid grey;
+    width: 30%;
+    background-color: rgb(223, 223, 223);
+    margin: 0;
+    height: auto;
+    justify-content:left;
+    align-items: left;
+}
+
+/*Titulo Articulo*/
+.titulo{
+    text-transform: capitalize;
+    padding-left: 10px;
+    font-size: 25px;
+    padding-right: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/*Descripcion y Precio*/
+.texto, .precio{
+    text-transform: capitalize;
+    padding-left: 10px;
+    font-size: 17px;
+    padding-right: 25px;
+    line-height: 30px;
+}
+
+.texto{
+    margin-bottom: 0;
+    color: black;
+}
+
+.precio{
+    margin-top: 0;
+    color: green;
+}
+
+/*Caracteristicas del auto*/
+.iconos{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+}
+
+article ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+article ul li a{
+    display: block;
+    padding: 1px;
+    text-decoration: none;
+}
+
+article ul li{
+    float: left;
+    width: auto;
+    padding: 5px;
+}
+
+article ul{
+    overflow: hidden;
+}
